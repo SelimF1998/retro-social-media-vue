@@ -9,7 +9,7 @@
               <h2 class="text-gray-700 font-bold text-3xl cursor-pointer">Sign in</h2>
           </div>
           <h2 class="text-slate-700 font-bold">
-            Get login to access your account
+            Get register to make your account
           </h2>
           <form class="grid gap-5 mt-6">
             <input
@@ -34,7 +34,7 @@
             />
           </form>
           <div class="card-actions grid gap-4 justify-center mt-5">
-            <button class="btn mx-auto bg-indigo-700 w-36 rounded-3xl">Register</button>
+            <button class="btn mx-auto bg-indigo-700 hover:bg-indigo-800 w-36 rounded-3xl">Register</button>
             <h1 class="text-slate-700 font-bold text-center">Already hane an account?</h1>
           </div>
         </div>

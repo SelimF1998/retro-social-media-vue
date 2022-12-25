@@ -28,7 +28,7 @@
           </div>
         </form>
         <div class="card-actions grid gap-4 justify-center mt-5">
-          <button class="btn bg-indigo-700 w-36 rounded-3xl">Login</button>
+          <button class="btn bg-indigo-700 hover:bg-indigo-800 w-36 rounded-3xl">Login</button>
           <h1 class="text-slate-700 font-bold text-center">Forget Password</h1>
         </div>
       </div>
