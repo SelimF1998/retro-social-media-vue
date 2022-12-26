@@ -1,28 +1,29 @@
 <template>
-    <div>
-        <Navbar class="h-20" />
-        <div class="flex h-screen" >
-            <Sidebar />
-            <Home />
+  <div class="flex justify-center">
+        <div class="w-[1280px] h-full">
+            <!-- navbar -->
+            <Navbar class="py-5 px-5 sm:px-8" />
+            <div class="flex py-5 px-5 sm:px-8">
+                <!-- sidebar -->
+                <Sidebar />
+                <!-- content -->
+                <router-view />
+            </div>
         </div>
-        
     </div>
 </template>
 <script>
-import Navbar from '../components/layouts/navbar/Navbar.vue';
-import Sidebar from '../components/layouts/sidebar/Sidebar.vue'
-import Home from './Home.vue'
-
+import Navbar from "../components/layouts/navbar/Navbar.vue";
+import Sidebar from "../components/layouts/sidebar/Sidebar.vue";
+import Home from "./Home.vue";
 
 export default {
-    name: "Main",
-    components: {
-        Navbar,
-        Sidebar,
-        Home
-    }
-}
+  name: "Main",
+  components: {
+    Navbar,
+    Sidebar,
+    Home,
+  },
+};
 </script>
-<style>
-    
-</style>
+<style></style>

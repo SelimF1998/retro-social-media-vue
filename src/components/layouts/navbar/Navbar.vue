@@ -1,17 +1,17 @@
 <template>
   <div class="flex">
-    <div class="mt-5 ml-5">
+    <div class="mt-5">
       <i class="fa-brands fa-ravelry text-blue-600 text-5xl cursor-pointer"></i>
     </div>
     <div class="flex flex-grow justify-between">
-      <div class="mt-5 ml-8">
+      <div class="mt-5 ml-28">
         <input
           type="text"
           placeholder="Seach"
-          class="px-5 w-full rounded py-3 bg-gray-900 text-gray-200 focus:outline-none"
+          class="px-5 w-full rounded-xl py-3 bg-slate-600 text-gray-200 focus:outline-none"
         />
       </div>
-      <div class="flex gap-5 mr-7">
+      <div class="flex gap-5">
         <div class="icons flex gap-10 mt-5 ml-5">
           <i
             class="fa-solid fa-book text-slate-300 text-3xl cursor-pointer"
