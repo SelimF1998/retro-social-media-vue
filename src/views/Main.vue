@@ -5,7 +5,9 @@
             <Navbar class="py-5 px-5 sm:px-8" />
             <div class="flex py-5 px-5 sm:px-8">
                 <!-- sidebar -->
+                <h1>This is Sidebar</h1>
                 <Sidebar />
+                <h1>This the router view</h1>
                 <!-- content -->
                 <router-view />
             </div>
